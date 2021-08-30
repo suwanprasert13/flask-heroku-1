@@ -27,7 +27,7 @@ def hello():
 
 @app.route('/hello/<string:name>')
 def hello1():
-    return "สวัสดี"
+    return "สวัสดี" 
 
 if __name__ == "__main__":
     app.run(debug=True)
