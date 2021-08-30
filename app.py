@@ -26,6 +26,5 @@ def hello():
     return "Hello Flask-Heroku"
 
 
-
 if __name__ == "__main__":
     app.run(debug=True)
