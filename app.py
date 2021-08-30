@@ -25,6 +25,9 @@ data = [
 def hello():
     return "Hello Flask-Heroku"
 
+@app.route('/test')
+def tes():
+        return "สวัสดี"
 
 if __name__ == "__main__":
     app.run(debug=True)
