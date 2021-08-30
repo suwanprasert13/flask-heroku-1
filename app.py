@@ -26,7 +26,7 @@ def hello():
     return "Hello Flask-Heroku"
 
 @app.route('/hello/<string:name>')
-def hello1():
+def test():
     return "สวัสดี" 
 
 if __name__ == "__main__":
