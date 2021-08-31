@@ -29,5 +29,10 @@ def hello():
 def get_api():
     return jsonify(data)
 
+@app.route('/hi')
+@app.route('/hello')
+def Home():
+        return "<h1>Hello World!</h1>"
+
 if __name__ == "__main__":
     app.run(debug=True)
