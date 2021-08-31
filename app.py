@@ -1,6 +1,5 @@
-#from flask import Flask, jsonify
-from flask import Flask, render_template, Response, jsonify
-import cv2
+from flask import Flask, jsonify
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
