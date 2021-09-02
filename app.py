@@ -23,16 +23,11 @@ data = [
 
 @app.route('/')
 def hello():
-    return "Hello อาคม สุวรรณประเสริฐ เลขทึ่ 0 ห้อง 4/5"
+    return "Hello Flask-heroku"
 
 @app.route('/api', methods=['GET'])
 def get_api():
     return jsonify(data)
-
-@app.route('/hi')
-@app.route('/hello')
-def hi():
-    return "สวัสดี"
 
 if __name__ == "__main__":
     app.run(debug=True)
